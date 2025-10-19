@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Admin Support</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<h1>Admin Support</h1>
+<div id="loginBox">
+  <input type="text" id="username" placeholder="Username"><br>
+  <input type="password" id="password" placeholder="Password"><br>
+  <button id="loginBtn">Login</button>
+</div>
+
+<div id="adminPanel" style="display:none">
+  <h2>Tickets</h2>
+  <div id="ticketsList"></div>
+</div>
+
+<script src="js/admin.js"></script>
+</body>
+</html>
