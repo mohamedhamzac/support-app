@@ -1,0 +1,12 @@
+body{font-family:sans-serif;background:#f0f4f8;padding:20px;}
+h1,h2{text-align:center;color:#333;}
+
+input,textarea,button{padding:10px;margin:5px;width:100%;border-radius:5px;border:1px solid #ccc;}
+button{background:linear-gradient(90deg,#4facfe,#00f2fe);color:#fff;border:none;cursor:pointer;}
+
+.messages{border:1px solid #ccc;padding:10px;height:200px;overflow-y:auto;margin-bottom:10px;background:#fff;border-radius:5px;}
+.msg.user{background:#d1e7ff;padding:5px;border-radius:5px;margin:3px 0;}
+.msg.admin{background:#ffe0b2;padding:5px;border-radius:5px;margin:3px 0;}
+
+.admin-chat{border:2px solid #4facfe;padding:10px;margin:10px 0;border-radius:10px;background:linear-gradient(180deg,#f0f4f8,#d1e7ff);}
+.ticket{border:1px solid #ccc;padding:5px;margin:5px;background:#fff;border-radius:5px;display:flex;justify-content:space-between;align-items:center;}
